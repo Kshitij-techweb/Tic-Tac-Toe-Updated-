@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="puppy.css">
+</head>
+<body>
+    <!-- <div style="justify-content: center; height: 1px;">
+        <div style="justify-content: center;">
+            <h1>Congratulations 🥳🥳🎉🎉, You Won The Game</h1>
+            <br><br>
+           <a id="newGame" href="index.html">
+                <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding: 10px 20px; background-color: #a8c923; color: white; border: none; border-radius: 5px; text-decoration: none; font-size: 16px;">New Game</h1>
+            </a>
+        </div>
+    </div> -->
+
+ <div class="wrapper">
+
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; margin-top: 50px;">
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333;">
+        🎉🎉 Congratulations 🥳🥳<br> You Won The Game 🎉🎉
+    </h1>
+    <br><br>
+    <a id="newGame" href="index.html"
+       style="padding: 15px 15px; background-color: #a8c923; color: white; border-radius: 10px; text-decoration: none; font-size: 20px; font-weight: bold; font-family: 'Lucida Sans', 'Lucida Grande', Verdana, sans-serif; box-shadow: 0 4px 6px rgba(0,0,0,0.2); transition: background 0.3s;">
+       New Game
+    </a>
+</div>
+            <!-- if you want to see the markers, remove d-none from them -->
+
+            <!-- indicates dog position -->
+            <div class="marker red d-none"></div>
+
+            <!-- indicates cursor position -->
+            <div class="marker green d-none"></div>
+
+            <!-- indicates dog's 'facing position'-->
+            <div class="marker blue d-none"></div>
+
+            <div class="dog">
+                <div class="body-wrapper">
+                    <div class="body img-bg"></div>
+                </div>
+                <div class="head-wrapper">
+                    <div class="head img-bg"></div>
+                </div>
+                <div class="leg-wrapper">
+                    <div class="leg one img-bg"></div>
+                </div>
+                <div class="leg-wrapper">
+                    <div class="leg two img-bg"></div>
+                </div>
+                <div class="leg-wrapper">
+                    <div class="leg three img-bg"></div>
+                </div>
+                <div class="leg-wrapper">
+                    <div class="leg four img-bg"></div>
+                </div>
+                <div class="tail-wrapper">
+                    <div class="tail img-bg"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="indicator"></div>
+    <script src="puppy.js"></script>
+</body>
+</html>
